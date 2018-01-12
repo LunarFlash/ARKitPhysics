@@ -132,6 +132,9 @@ extension ViewController: ARSCNViewDelegate {
     }
     
     // TODO: Create update plane node method
+    func update(_ node: inout SCNNode, withGeometry geometry: SCNGeometry, type: SCNPhysicsBodyType) {
+        
+    }
     
 }
 
